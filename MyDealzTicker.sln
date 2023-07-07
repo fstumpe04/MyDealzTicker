@@ -3,7 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{907D877A-658E-4616-9F64-D24B943DA635}"
+	ProjectSection(SolutionItems) = preProject
+		MyDealzTicker.png = MyDealzTicker.png
+		MyDealzTicker.uxf = MyDealzTicker.uxf
+		C:\Users\Stumpe\AppData\Local\Temp\unnamed.png = C:\Users\Stumpe\AppData\Local\Temp\unnamed.png
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDealzTickerLibrary", "MyDealzTickerLibrary\MyDealzTickerLibrary.csproj", "{5570F4D7-B981-4E90-8182-4FA34CC07EAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDealzTickerDesktopApp", "MyDealzTickerDesktopApp\MyDealzTickerDesktopApp.csproj", "{14FC9FB0-B9DC-4C2F-A502-26BC1B8BD332}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDealzTickerDiscordBot", "MyDealzTickerDiscordBot\MyDealzTickerDiscordBot.csproj", "{700D523D-26A6-489C-B043-4D2015BB5EBE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5570F4D7-B981-4E90-8182-4FA34CC07EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5570F4D7-B981-4E90-8182-4FA34CC07EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5570F4D7-B981-4E90-8182-4FA34CC07EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5570F4D7-B981-4E90-8182-4FA34CC07EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14FC9FB0-B9DC-4C2F-A502-26BC1B8BD332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14FC9FB0-B9DC-4C2F-A502-26BC1B8BD332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14FC9FB0-B9DC-4C2F-A502-26BC1B8BD332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14FC9FB0-B9DC-4C2F-A502-26BC1B8BD332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{700D523D-26A6-489C-B043-4D2015BB5EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700D523D-26A6-489C-B043-4D2015BB5EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700D523D-26A6-489C-B043-4D2015BB5EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700D523D-26A6-489C-B043-4D2015BB5EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
